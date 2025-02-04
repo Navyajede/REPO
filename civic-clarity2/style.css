@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    --color-brown:#da6115;
+    --color-bisque:#fcdcca;
+    --color-black:#0e0d0d;
+    --color-white:#ffffff;
+   
+    --color-darkbrown:rgba(97, 11, 3, 0.463);
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+    --transition: all 400ma ease;}
+    
+@media screen and (min-width:1024px){
+    .navbar-nav .nav-item{
+        padding:0  1.5rem;
+        color: #fcdcca;
+    }
+}
+
+a{
+    color:#fcdcca;
+}
+a:hover{
+    color:white;
+}
+p{
+    font-size: larger;
+}
+.home-sec{
+    background-color: #fcdcca;
+    
+}
+.contleft{
+    padding:6rem 0;
+    justify-content: justify;
+    align-items: center;
+    #text-align: center;
+}
+.col-sm-12{
+    align-items: center;
+}
+.contright{
+    padding-left:150px;
+    padding-right: 10px;
+    padding-top: 20px;
+    justify-content: justify;
+    justify-content:center;
+    align-items: center;
+}
+.img-fluid{
+    background-color: #fcdcca;
+    border-color: #fcdcca;
+    height: 600px;
+    width: 400px;
+
+    
+}
+.fa-solid{
+    color: #ffffff;
+    padding-top: 5px;
+    margin-left: 1.5rem;
+}
+.btn{
+    display:inline-block;
+    background-color: #7c380e;
+    color:#ffffff;
+    padding: 10px; 
+    border-radius: 10px;
+    
+    
+    
+}
+.btn:hover{
+    background-color: #9c3c05;
+    color:white;
+    
+}
